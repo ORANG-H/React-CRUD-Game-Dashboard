@@ -1,0 +1,11 @@
+/* Hides the blue overlay by default */
+.buy-overlay {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+/* Fades the blue overlay in when you hover anywhere on the card */
+.hover-card:hover .buy-overlay {
+  opacity: 30%;
+}
